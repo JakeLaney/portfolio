@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jakelaney
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - jakelaney/cgp-tetris
+  - jakelaney/cgp-art
+  - jakelaney/BluetoothPM2.5Android
+  - jakelaney/SwiftBoids
+  - jakelaney/py-drone
