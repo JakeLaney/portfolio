@@ -1,8 +1,4 @@
 #!/bin/bash
 
-bundle exec jekyll build
-rm -rf ../portfolio-firebase/public/
-mkdir ../portfolio-firebase/public/
-cp -r _site/* ../portfolio-firebase/public
-cd ../portfolio-firebase 
-firebase deploy
+cd /Users/jacoblaney/code/portfolio/_site
+aws s3 sync . s3://jakelaney.com
