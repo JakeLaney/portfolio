@@ -5,15 +5,19 @@
       value: Jake Laney
     - name: Languages
       value: English, Mandarin (中文)
-    - name: Specializations
-      value: Cloud Applications, DevOps, SAAS, Microservices, Cell-Based Architecture, API Design, Testing, Agile, Operational Excellence, Distributed Systems, Containerization
+
+
+- title: Technical Skills
+  type: map
+  contents:
     - name: Programming Languages
       value: Python, Java, Ruby, TypeScript/JavaScript, C
+    - name: Specializations
+      value: Cloud Applications, DevOps, SAAS, Microservices, Cell-Based Architecture, API Design, Testing, Agile, Operational Excellence, Distributed Systems, Containerization
     - name: Technologies
       value: MongoDB, Kubernetes, RPC, HTTP, Spring, Guice, SQL, DynamoDB, Git, CDK, Linux  CLI, CI/CD Tools, Maven, Gradle
     - name: Platforms
       value: AWS, Linux, Salesforce CRM, Android
-
 
 # - title: Experience
 #   type: time_table
@@ -85,8 +89,3 @@
 #     - year: 2029
 #       items:
 #         - Max Planck Medal
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
