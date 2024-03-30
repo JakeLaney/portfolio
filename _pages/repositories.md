@@ -3,7 +3,7 @@ layout: page
 permalink: /github/
 title: github
 description:
-nav: true
+nav: false
 nav_order: 3
 ---
 
@@ -46,6 +46,7 @@ nav_order: 3
 <p>Most of my commits are in private repos. These are primarily from my undergrad days.</p>
 
 {% if site.data.repositories.github_repos %}
+
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.html repository=repo %}
