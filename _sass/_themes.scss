@@ -1,28 +1,33 @@
 /*******************************************************************************
  * Themes
  ******************************************************************************/
- 
+
 :root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
-  --global-card-bg-color: #{$white-color};
+  --global-bg-color: #e8efff; /* Light navy background */
+  --global-code-bg-color: #e2ecf6; /* Subtle light navy for code blocks */
+  --global-text-color: #001f3f; /* Dark navy for main text */
+  --global-text-color-light: #506680; /* Muted navy for secondary text */
+  --global-theme-color: #003366; /* Classic navy blue theme color */
+  --global-hover-color: #004080; /* Slightly brighter navy for hover effects */
+  --global-footer-bg-color: #001f3f; /* Dark navy footer */
+  --global-footer-text-color: #cfd8e3; /* Light blue text for footer */
+  --global-footer-link-color: #f0f4fa; /* Lighter navy links in footer */
+  --global-distill-app-color: #506680; /* Muted navy for UI elements */
+  --global-divider-color: rgba(
+    0,
+    31,
+    63,
+    0.1
+  ); /* Transparent dark navy divider */
+  --global-card-bg-color: #f0f4fa; /* Light navy for cards */
 
   .fa-sun {
-    display : none;
+    display: none;
   }
   .fa-moon {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
 
   .repo-img-light {
@@ -33,27 +38,27 @@
   }
 }
 
-html[data-theme='dark'] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+html[data-theme="dark"] {
+  --global-bg-color: #001f3f; /* Dark navy background */
+  --global-code-bg-color: #002a5c; /* Slightly lighter navy for code blocks */
+  --global-text-color: #cfd8e3; /* Light blue for main text */
+  --global-text-color-light: #a1b5cf; /* Muted light blue for secondary text */
+  --global-theme-color: #00509e; /* Bright navy blue theme color */
+  --global-hover-color: #337ab7; /* Vibrant navy for hover effects */
+  --global-footer-bg-color: #003366; /* Classic navy footer */
+  --global-footer-text-color: #f0f4fa; /* Light blue text for footer */
+  --global-footer-link-color: #cfd8e3; /* Muted blue links in footer */
+  --global-distill-app-color: #a1b5cf; /* Muted light blue for UI elements */
+  --global-divider-color: #334e68; /* Darker navy divider */
+  --global-card-bg-color: #002a5c; /* Slightly lighter navy for cards */
 
   .fa-sun {
     padding-left: 10px;
     padding-top: 12px;
-    display : block;
+    display: block;
   }
   .fa-moon {
-    display : none;
+    display: none;
   }
 
   .repo-img-light {
