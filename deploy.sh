@@ -1,4 +1,5 @@
 #!/bin/bash
 
-cd /Users/jacoblaney/code/portfolio/_site
-aws s3 sync . s3://jakelaney.com
+jekyll build
+aws s3 sync ./_site s3://jakelaney.com --delete
+
